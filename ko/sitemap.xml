@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://andgar2010.github.io/ko/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andgar2010.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://andgar2010.github.io/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://andgar2010.github.io/ko/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://andgar2010.github.io/ko/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andgar2010.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://andgar2010.github.io/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://andgar2010.github.io/ko/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://andgar2010.github.io/ko/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andgar2010.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://andgar2010.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://andgar2010.github.io/ko/tags/"
+                />
+  </url>
+  
+</urlset>
