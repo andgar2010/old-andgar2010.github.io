@@ -1,156 +1,301 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-         
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Minimal</title>
-        
-        <style>
-
-    html body {
-        font-family: 'Raleway', sans-serif;
-        background-color: white;
-    }
-
-    :root {
-        --accent: red;
-        --border-width:  5px ;
-    }
-
-</style>
-
-
-<link rel="stylesheet" href="https://andgar2010.github.io/css/main.css">
-
-
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
-
-    <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.54.0" />
-        
-        <link href="https://andgar2010.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Minimal" />
-        <link href="https://andgar2010.github.io/index.xml" rel="feed" type="application/rss+xml" title="Minimal" />
-        
-
-        
-    </head>
-
-    
-    
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
     
 
-    <body>
-         
-        <nav class="navbar navbar-default navbar-fixed-top">
+ <html lang="en"> 
 
-            <div class="container">
+<head>
+	<meta name="generator" content="Hugo 0.54.0" />
+        <title></title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hugo Responsive Resume/CV Theme for Developers">
+    <meta name="author" content="Pavel Kanyshev">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="https://andgar2010.github.io/assets/plugins/bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://andgar2010.github.io/assets/plugins/font-awesome/css/font-awesome.css">
 
-                <div class="navbar-header">
+    
+    <link id="theme-style" rel="stylesheet" href="https://andgar2010.github.io/assets/css/styles.css">
+	
+    
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXX-Y', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
-                    <a class="navbar-brand visible-xs" href="#">Minimal</a>
 
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+</head>
 
-                </div>
+<body>
+    <div class="wrapper">
 
-                <div class="collapse navbar-collapse">
+            <div class="sidebar-wrapper">
 
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home</a></li>
-                            
-                                <li><a href="/post/">Posts</a></li>
-                            
-                                <li><a href="/project/">Projects</a></li>
-                            
-                        </ul>
-                    
-
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:me@example.com"><i class="fa fa-envelope-o"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://github.com/andgar2010/"><i class="fa fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/andgar2010/"><i class="fa fa-twitter"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/andgar2010/"><i class="fa fa-linkedin"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/andgar2010/"><i class="fa fa-stack-overflow"></i></a></li>
-                            
-                        </ul>
-                    
-
-                </div>
-
+		            <div class="profile-container">
+                <img class="profile img-circle" src="https://andgar2010.github.io/assets/images/profile.png" alt="" />
+                <h1 class="name">John Doe</h1>
+                <h3 class="tagline">Full Stack Developer</h3>
             </div>
 
-        </nav>
+
+		
+
+		
+		            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+				
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:%20yourname@email.com">john.doe@website.com</a></li>
+				
+                    <li class="phone"><i class="fa fa-phone"></i><a href="#ZgotmplZ">&#43;1234567890</a></li>
+				
+                    <li class="website"><i class="fa fa-globe"></i><a href="//portfoliosite.com">portfoliosite.com</a></li>
+				
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="//linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></li>
+				
+                    <li class="github"><i class="fa fa-github"></i><a href="//github.com/username">github.com/username</a></li>
+				
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="//twitter.com/username">@twittername</a></li>
+				
+                </ul>
+            </div>
+		
+
+		
+		            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+				
+                <div class="item">
+                    <h4 class="degree">MSc in Computer Science</h4>
+                    <h5 class="meta">University of London</h5>
+                    <div class="time">2006 - 2010</div>
+                </div>
+				
+                <div class="item">
+                    <h4 class="degree">BSc in Applied Mathematics</h4>
+                    <h5 class="meta">Bristol University</h5>
+                    <div class="time">2007 - 2011</div>
+                </div>
+				
+            </div>
+
+		
+
+		
+		            <div class="language-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+				
+                    <li>English <span class="lang-desc">(Native)</span></li>
+				
+                    <li>French <span class="lang-desc">(Professional)</span></li>
+				
+                    <li>Russian <span class="lang-desc">(Professional)</span></li>
+				
+                </ul>
+            </div>
+
+		
+
+		
+		            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+				
+                    <li>Climbing</li>
+				
+                    <li>Snowboarding</li>
+				
+                    <li>Cooking</li>
+				
+                </ul>
+            </div>
+
+		
+
+        </div>
 
 
-<main>
+	<div class="main-wrapper">
 
-    <div class="intro">
+    
+	            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p><strong>Summarise your career here</strong> lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                </div>
+            </section>
 
-        
+    
 
-        <h1>Minimal</h1>
+    
+                <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 
-        <h2>Personal blog theme powered by Hugo</h2>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Lead Developer</h3>
+                            <div class="time">2015 - Present</div>
+                        </div>
+                        <div class="company">Startup Hubs, San Francisco</div>
+                    </div>
+                    <div class="details">
+                        <p><p><strong>Describe your role here</strong> lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
 
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+</p>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Senior Software Engineer</h3>
+                            <div class="time">2014 - 2015</div>
+                        </div>
+                        <div class="company">Google, London</div>
+                    </div>
+                    <div class="details">
+                        <p><strong>Describe your role here</strong> lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">UI Developer</h3>
+                            <div class="time">2012 - 2014</div>
+                        </div>
+                        <div class="company">Amazon, London</div>
+                    </div>
+                    <div class="details">
+                        <p><strong>Describe your role here</strong> lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    </div>
+                </div>
+				
+
+            </section>
+
+    
+
+    
+                <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="intro">
+                    <p><strong>You can list your side projects or open source libraries in this section.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus</p>
+                </div>
+				
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/aerohub/hugrid">Hugrid</a></span> - <span class="project-tagline">Grid theme for Hugo. It&rsquo;s a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on</span>
+                </div>
+				
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/aerohub/hugo-faq-theme">Simple FAQ Theme for Hugo</a></span> - <span class="project-tagline">Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists.</span>
+                </div>
+				
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/aerohub/hugo-identity-theme">Hugo Identity</a></span> - <span class="project-tagline">Little profile/card-style template for Hugo.</span>
+                </div>
+				
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/aerohub/hugo-orbit-theme">Orbit</a></span> - <span class="project-tagline">Hugo Resume/CV Theme for Developers.</span>
+                </div>
+				
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/aerohub/hugo-me-theme">Me</a></span> - <span class="project-tagline">A simple responsive Hugo theme for personal site.</span>
+                </div>
+				
+            </section>
+
+    
+
+    
+	            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+				
+                    <div class="item">
+                        <h3 class="level-title">Python &amp; Django</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="98%">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; jQuery</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="98%">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Angular</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="95%">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="95%">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Ruby on Rails</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <h3 class="level-title">Sketch &amp; Photoshop</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%">
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+
+    
+
+	</div>
     </div>
 
-</main>
+	    <footer class="footer">
+        <div class="text-center">
+                
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small><br>
+				<small class="copyright">2019 &copy; Ported for Hugo by <a href="https://github.com/aerohub" target="_blank">Pavel Kanyshev</a></small>
+        </div>
+    </footer>
 
-        <footer>
 
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
-
-        </footer>
-       
-    </body>
-
+                  
+    <script type="text/javascript" src="https://andgar2010.github.io/assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://andgar2010.github.io/assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    
+    <script type="text/javascript" src="https://andgar2010.github.io/assets/js/main.js"></script> 
+</body>
 </html>
-
