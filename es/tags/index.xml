@@ -3,12 +3,12 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andres Garcia Resume</title>
-    <link>https://andgar2010.github.io/ko/tags/</link>
+    <link>https://andgar2010.github.io/es/tags/</link>
     <description>Recent content in Tags on Andres Garcia Resume</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
 
-    <atom:link href="https://andgar2010.github.io/ko/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andgar2010.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
 
 
   </channel>
